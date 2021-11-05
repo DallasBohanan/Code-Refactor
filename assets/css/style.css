@@ -1,5 +1,5 @@
 /* Body styling starts  */
-
+/* reset of all elements */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -49,11 +49,18 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* Heading styling ends here */
 
+
+
+/* all paragraph tags on page are given defualt size of 16px */
 p {
     font-size: 16px;
 }
-/* hero/ landing image styling */
+/* p tag styling ends  */
+
+
+/* hero/ landing image styling starts */
 
 .hero {
     height: 800px;
@@ -66,6 +73,7 @@ p {
 /* hero styling end */
 
 
+/* float styling for images in the main section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,13 +83,16 @@ p {
     float: right;
     margin-left: 25px;
 }
+/* float styling for images in main section ends here */
+
+
 /* Main content styling starts */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* styling for benefits/aside section starts here */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -110,9 +121,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* benefits/aside section styling ends here */
 
-
-
+/* main section content font, background, and spacing all given styles  */
 .search-engine-optimization, .social-media-marketing{
     margin-bottom: 20px;
     padding: 50px;
@@ -130,20 +141,22 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* end of main section font, background, and spacing styling */
 
-
+/* main content image given height */
 .content img {
     max-height: 200px;
 }
+/* end of main content image styling */
 
 
-
+/* main content h2's are given styles  */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-
+/* end of main content h2 styling */
+/* footer stlying starts here */
 
 .footer {
     padding: 30px;
@@ -155,3 +168,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+ /* footer styling ends here */
